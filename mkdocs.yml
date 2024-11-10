@@ -71,18 +71,18 @@ plugins:
 
 extra:
 	social:
-		- icon: simple/bluesky
-		  link: https://bsky.app/profile/fennecpixels.com
-	          name: Bluesky: fennecpixels.com
-		- icon: simple/instagram
-     		  link: https://www.instagram.com/fennecpixels
-	          name: Instagram: fennecpixels
-		- icon: material/email
-		  link: mailto:contact@fennecpixels.com
-	          name: Email me at contact (at) fennecpixels.com
-		- icon: simple/github
-		  link: https://github.com/fennecpixels/
-	          name: fennecpixels on GitHub
+	- icon: simple/bluesky
+	link: https://bsky.app/profile/fennecpixels.com
+	name: Bluesky: fennecpixels.com
+	- icon: simple/instagram
+     	link: https://www.instagram.com/fennecpixels
+	name: Instagram: fennecpixels
+	- icon: material/email
+	link: mailto:contact@fennecpixels.com
+	name: Email me at contact (at) fennecpixels.com
+	- icon: simple/github
+	link: https://github.com/fennecpixels/
+	name: fennecpixels on GitHub
 	generator: false
 	copyright: Images &copy 2024 fennecpixels unless otherwise stated.
 
