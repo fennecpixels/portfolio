@@ -1,14 +1,17 @@
-site_name: obsidian-mkdocs template
+site_name: fennecpixels
+
 
 theme:
     name: 'material'
+    logo: assets/icon.png
+    favicon: assets/icon.png
     palette:
-
+    
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: pink
-      accent: indigo
+      primary: deep orange
+      accent: orange
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
@@ -16,8 +19,8 @@ theme:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: pink
-      accent: blue
+      primary: deep orange
+      accent: orange
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
