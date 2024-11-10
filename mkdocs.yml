@@ -5,7 +5,7 @@ theme:
     name: 'material'
     logo: assets/icon.png
     favicon: assets/icon.png
-	features: 
+    features: 
 	- navigation.tabs
 	- navigation.tabs.sticky
 	- navigation.top
