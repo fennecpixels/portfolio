@@ -1,5 +1,5 @@
 site_name: fennecpixels
-
+site_url: https://fennecpixels.com
 
 theme:
     name: 'material'
@@ -30,6 +30,9 @@ theme:
         icon: material/toggle-switch
         name: Switch to light mode
 
+
+# COpyrigt
+copyright: Copyright &copy; 2024 fennecpixels unless otherwise stated.
 
 # Extensions
 markdown_extensions:
@@ -64,14 +67,21 @@ plugins:
 
 extra:
   social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/fennecpixels
     - icon: fontawesome/brands/bluesky
       link: https://bsky.app/profile/fennecpixels.com
+      name: fennecpixels.com on Bluesky
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/fennecpixels
+      name: fennecpixels on Instagram
+    - icon: fontawesome/solid/house
+      link: https://toyhou.se/fennecpixels
+      name: fennecpixels on Toyhouse
+    - icon: fontawesome/brands/github
+      link: https://github.com/fennecpixels
+      name: fennecpixels on GitHub
     - icon: material/email
       link: mailto:contact@fennecpixels.com
+      name: Email me - contact ( at ) fennecpixels.com
     
 
 
