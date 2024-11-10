@@ -2,7 +2,8 @@ site_name: obsidian-mkdocs template
 
 theme:
     name: 'material'
-    logo: assets/logo.png
+    logo: assets/pageicon.png
+    favicon: assets/icon.png
     palette:
     
     # Light mode
