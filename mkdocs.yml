@@ -61,20 +61,19 @@ plugins:
   - search
   - roamlinks
   - blog
-  - rss:
-      match_path: blog/posts/.* 
-      date_from_meta:
-        as_creation: date
-      categories:
-        - categories
-        - tags
 
 extra:
-    generator: false
-    copyright: Images &copy 2024 fennecpixels unless otherwise stated.
-    social:
-        - icon: simple/bluesky
-        link: https://bsky.app/profile/fennecpixels.com
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/fennecpixels
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/fennecpixels.com
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/fennecpixels
+    - icon: material/email
+      link: mailto:contact@fennecpixels.com
+    
+
 
 
 extra_javascript:
