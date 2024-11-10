@@ -85,7 +85,7 @@ extra:
         - icon: simple/github
         link: https://github.com/fennecpixels/
         name: fennecpixels on GitHub
-		
+
 
 extra_javascript:
   - javascripts/mathjax.js
