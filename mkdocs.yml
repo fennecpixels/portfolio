@@ -70,9 +70,9 @@ plugins:
         - tags
 
 extra:
-	generator: false
-	copyright: Images &copy 2024 fennecpixels unless otherwise stated.
-	social:
+	- generator: false
+	- copyright: Images &copy 2024 fennecpixels unless otherwise stated.
+	- social:
 		- icon: simple/bluesky
 		link: https://bsky.app/profile/fennecpixels.com
 		name: fennecpixels.com on Bluesky
