@@ -1,5 +1,5 @@
 site_name: fennecpixels
-
+site_url: https://fennecpixels.com
 
 theme:
     name: 'material'
@@ -30,6 +30,9 @@ theme:
         icon: material/toggle-switch
         name: Switch to light mode
 
+
+# COpyrigt
+copyright: Copyright &copy; 2024 fennecpixels unless otherwise stated.
 
 # Extensions
 markdown_extensions:
