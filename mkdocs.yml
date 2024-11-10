@@ -1,8 +1,9 @@
-site_name: obsidian-mkdocs template
+site_name: fennecpixels
+
 
 theme:
     name: 'material'
-    logo: assets/pageicon.png
+    logo: assets/icon.png
     favicon: assets/icon.png
     palette:
     
