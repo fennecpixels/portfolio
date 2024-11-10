@@ -6,9 +6,9 @@ theme:
     logo: assets/icon.png
     favicon: assets/icon.png
     features: 
-	- navigation.tabs
-	- navigation.tabs.sticky
-	- navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
 
     palette:
     
