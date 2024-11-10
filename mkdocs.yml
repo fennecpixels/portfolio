@@ -69,12 +69,19 @@ extra:
   social:
     - icon: fontawesome/brands/bluesky
       link: https://bsky.app/profile/fennecpixels.com
+      name: fennecpixels.com on Bluesky
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/fennecpixels
+      name: fennecpixels on Instagram
+    - icon: fontawesome/solid/house
+      link: https://toyhou.se/fennecpixels
+      name: fennecpixels on Toyhouse
     - icon: fontawesome/brands/github
       link: https://github.com/fennecpixels
+      name: fennecpixels on GitHub
     - icon: material/email
       link: mailto:contact@fennecpixels.com
+      name: Email me - contact ( at ) fennecpixels.com
     
 
 
