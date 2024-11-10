@@ -64,12 +64,12 @@ plugins:
 
 extra:
   social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/fennecpixels
     - icon: fontawesome/brands/bluesky
       link: https://bsky.app/profile/fennecpixels.com
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/fennecpixels
+    - icon: fontawesome/brands/github
+      link: https://github.com/fennecpixels
     - icon: material/email
       link: mailto:contact@fennecpixels.com
     
