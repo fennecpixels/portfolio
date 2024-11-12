@@ -1,0 +1,79 @@
+:root{
+	--scorch: #e45732;
+	--monospace: 'Space Mono', 'Courier New', Monospace;
+}
+
+h1.logo{
+	font-family: var(--monospace);
+	font-size: 4.5rem;
+	color: var(--scorch);
+	margin: auto;
+}
+
+/* Landing stuff */
+
+.static-background{
+	position:fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	height:100vh;
+	background-image: url(landing_bg.png);
+	background-size:cover;
+	background-attachment: fixed;
+	z-index: -1;
+}
+
+/* CTAs etc */
+
+.right-margin-align{
+	position:relative;
+	top:20vh;
+	float:right;
+	margin-right:5%	;
+	user-select: text !important;
+}
+
+.above-me{
+	z-index: 2;
+}
+
+.below-me{
+	z-index:1;
+}
+
+.ctas{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	gap:10%;
+	width:inherit;	
+}
+
+button.cta{
+
+	font-family:var(--monospace);
+	border: 0px;
+	padding: 2px;
+	margin-top:1vh;
+	font-size:1.4rem;
+	box-shadow: 000;
+	transition-duration: 0.3s;
+
+}
+button.cta :hover{
+	background-color:var(--scorch);
+	color:white;
+}
+
+/* next section */
+
+.scroll-content {
+    padding-top: 90vh; /* Start content after the background */
+}
+
+.section{
+	background-color: white;
+	padding:50px;
+	margin:20px 0;
+}
