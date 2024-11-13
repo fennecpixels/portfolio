@@ -3,7 +3,7 @@ site_url: https://fennecpixels.com
 
 theme:
     name: 'material'
-    custom_dir: overrides
+    custom_dir: material/overrides
     logo: assets/icon.png
     favicon: assets/icon.png
     features: 
