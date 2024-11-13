@@ -31,16 +31,42 @@ body{
 
 .right-margin-align{
 	position:relative;
-	left: 50vh;
+	left: 28vw;
 	float:right;
 	margin-right:5%	;
 	z-index:1 !important;
 	pointer-events: auto;
+	transition-duration: 0.3s;
+	flex-shrink:1;
 }
+
+@media screen and (min-width: 1200px){
+	.right-margin-align{
+		left:28vw;
+		font-size:16px;
+	}
+}
+@media screen and (max-width: 1199px){
+	.right-margin-align{
+		left:0vw;
+		margin:auto;
+		font-size:14px;
+	}
+}
+@media screen and (max-width: 600px){
+	.right-margin-align{
+		left:0vw;
+		margin:auto;
+		font-size:2.5vw;
+		max-width:100%;
+		word-wrap:break-word;
+	}
+}
+
 
 h1.logo{
 	font-family: var(--monospace);
-	font-size: 4.5rem;
+	font-size: 4.5em;
 	color: var(--scorch);
 	margin: auto;
 	text-shadow: 1pt 1pt 2pt #000000aa;
@@ -79,7 +105,7 @@ button.cta{
 	border: 0px;
 	padding: 2px 5px 2px 5px;
 	margin-top:1vh;
-	font-size:1.4rem;
+	font-size:1.4em;
 	box-shadow: 000;
 	transition-duration: 0.3s;
 	z-index:3;
