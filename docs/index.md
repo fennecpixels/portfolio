@@ -1,2 +1,8 @@
-**Website still under construction.** brb
+---
+hide:
+	- navigation
+	- toc
+---
+
+Website under construction. brb!
 
