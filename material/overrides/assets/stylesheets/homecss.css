@@ -22,7 +22,7 @@ body{
 }
 
 .hero-bg{
-	background-image: url(landing_bg.png);
+	background-image: url(../images/landing_bg.png);
 	background-size:cover;
 	background-attachment: fixed;
 	z-index: -1;
