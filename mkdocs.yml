@@ -64,7 +64,6 @@ markdown_extensions:
 plugins:
   - search
   - roamlinks
-  - blog
   - redirects:
       redirect_maps:
         'Fracture.md': 'https://wiki.fennecpixels.com'
