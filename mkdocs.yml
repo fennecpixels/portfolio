@@ -66,8 +66,8 @@ plugins:
   - roamlinks
   - blog
   - redirects:
-    redirect_maps:
-      'Fracture.md': 'https://wiki.fennecpixels.com'
+      redirect_maps:
+        'Fracture.md': 'https://wiki.fennecpixels.com'
 
 extra:
   social:
