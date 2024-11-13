@@ -14,7 +14,7 @@ body{
 .hero-content{
 	position:relative;
 	width: 100%;
-	height:95vh;
+	height:100vh;
 	display:flex;
 	justify-content: center;
 	align-items: center;
@@ -49,18 +49,35 @@ h1.logo{
 /* CTAs etc */
 
 .ctas{
-	display:flex;
-	flex-direction: row;
-	justify-content: center;
-	gap:10%;
-	width:inherit;	
+	display:grid;
+	gap: 5% 10%;	
+}
+
+.grid1{
+	grid-column: 1/2;
+	grid-row:1/1;
+}
+
+.grid2{
+	grid-column: 2/3;
+	grid-row:1/1;
+}
+
+.grid3{
+	grid-column: 3/4;
+	grid-row:1/1;
+}
+
+.gridNL{
+	grid-row:2/2;
+	grid-column: 1/4;
 }
 
 button.cta{
 
 	font-family:var(--monospace);
 	border: 0px;
-	padding: 2px;
+	padding: 2px 5px 2px 5px;
 	margin-top:1vh;
 	font-size:1.4rem;
 	box-shadow: 000;
@@ -72,11 +89,25 @@ button.cta{
 }
 button.cta:hover{
 	transform:scale(110%);
+	
 }
+
+.line-breaK{
+	width:100%;
+}
+
+
+
+
 /* next section */
 
-.main-content {
+/* .main-content {
 	padding: 40px;
-	background-color: #f9f9f9;
+	background-color: #ccbeb4;
 	
-  }
+}
+
+.about-me-LP{
+	font-family:sans-serif;
+	margin-left: 5%;
+}  */
