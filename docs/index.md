@@ -5,5 +5,3 @@ hide:
 template: overides/main.html
 ---
 
-Website under construction. brb!
-
