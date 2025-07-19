@@ -3,7 +3,9 @@
 	--monospace: 'Space Mono', 'Courier New', Monospace;
 }
 
-
+html{
+	scroll-behavior: smooth;
+}
 
 body{
 	margin:unset;
@@ -99,7 +101,7 @@ h1.logo{
 	grid-column: 1/4;
 }
 
-button.cta{
+.cta{
 
 	font-family:var(--monospace);
 	border: 0px;
@@ -114,7 +116,14 @@ button.cta{
 	width:100%;
 
 }
-button.cta:hover{
+
+a.cta{
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
+
+a.cta:hover{
 	transform:scale(110%);
 	
 }
@@ -128,13 +137,18 @@ button.cta:hover{
 
 /* next section */
 
-/* .main-content {
+.main-content {
 	padding: 40px;
-	background-color: #ccbeb4;
+	background-color: #FCFCFF;
 	
 }
 
 .about-me-LP{
 	font-family:sans-serif;
-	margin-left: 5%;
-}  */
+	width: 60%;
+	margin: auto;
+} 
+
+.about-me-LP > h1{
+	font-family: var(--monospace);
+}

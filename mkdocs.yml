@@ -16,7 +16,7 @@ theme:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: deep orange
+      primary: cyan
       accent: orange
       toggle:
         icon: material/toggle-switch-off-outline
@@ -25,7 +25,7 @@ theme:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: deep orange
+      primary: cyan
       accent: orange
       toggle:
         icon: material/toggle-switch
@@ -73,8 +73,6 @@ extra:
     - icon: fontawesome/brands/bluesky
       link: https://bsky.app/profile/fennecpixels.com
       name: fennecpixels.com on Bluesky
-    - icon: fontawesome/brands/instagram
-      link: https://www.instagram.com/fennecpixels
       name: fennecpixels on Instagram
     - icon: fontawesome/solid/house
       link: https://toyhou.se/fennecpixels
