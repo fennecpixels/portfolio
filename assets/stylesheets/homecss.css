@@ -1,0 +1,154 @@
+:root{
+	--scorch: #e45732;
+	--monospace: 'Space Mono', 'Courier New', Monospace;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	margin:unset;
+}
+
+/* Hero page */
+
+.hero-content{
+	position:relative;
+	width: 100%;
+	height:100vh;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin:0;
+}
+
+.hero-bg{
+	background-image: url(../images/landing_bg.png);
+	background-size:cover;
+	background-attachment: fixed;
+	z-index: -1;
+	box-shadow: inset 0px -5vh 50px #000000aa;
+}
+
+.right-margin-align{
+	position:relative;
+	left: 28vw;
+	float:right;
+	margin-right:5%	;
+	z-index:1 !important;
+	pointer-events: auto;
+	transition-duration: 0.3s;
+	flex-shrink:1;
+}
+
+@media screen and (min-width: 1200px){
+	.right-margin-align{
+		left:28vw;
+		font-size:16px;
+	}
+}
+@media screen and (max-width: 1199px){
+	.right-margin-align{
+		left:0vw;
+		margin:auto;
+		font-size:14px;
+	}
+}
+@media screen and (max-width: 600px){
+	.right-margin-align{
+		left:0vw;
+		margin:auto;
+		font-size:2.5vw;
+		max-width:100%;
+		word-wrap:break-word;
+	}
+}
+
+
+h1.logo{
+	font-family: var(--monospace);
+	font-size: 4.5em;
+	color: var(--scorch);
+	margin: auto;
+	text-shadow: 1pt 1pt 2pt #000000aa;
+}
+
+/* CTAs etc */
+
+.ctas{
+	display:grid;
+	gap: 5% 10%;	
+}
+
+.grid1{
+	grid-column: 1/2;
+	grid-row:1/1;
+}
+
+.grid2{
+	grid-column: 2/3;
+	grid-row:1/1;
+}
+
+.grid3{
+	grid-column: 3/4;
+	grid-row:1/1;
+}
+
+.gridNL{
+	grid-row:2/2;
+	grid-column: 1/4;
+}
+
+.cta{
+
+	font-family:var(--monospace);
+	border: 0px;
+	padding: 2px 5px 2px 5px;
+	margin-top:1vh;
+	font-size:1.4em;
+	box-shadow: 000;
+	transition-duration: 0.3s;
+	z-index:3;
+	cursor:pointer;
+	background-color: white;
+	width:100%;
+
+}
+
+a.cta{
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
+
+a.cta:hover{
+	transform:scale(110%);
+	
+}
+
+.line-breaK{
+	width:100%;
+}
+
+
+
+
+/* next section */
+
+.main-content {
+	padding: 40px;
+	background-color: #FCFCFF;
+	
+}
+
+.about-me-LP{
+	font-family:sans-serif;
+	width: 60%;
+	margin: auto;
+} 
+
+.about-me-LP > h1{
+	font-family: var(--monospace);
+}
